@@ -9,8 +9,8 @@ const firebaseConfig = {
   authDomain: "clocking-2ddc8.firebaseapp.com",
   projectId: "clocking-2ddc8",
   storageBucket: "clocking-2ddc8.firebasestorage.app",
-  messagingSenderId: "34289662034",
-  appId: "1:34289662034:web:4c975363934ad19e12478b"
+  messagingSenderId: process.env.REACT_APP_API_KEY_FIREBASE3,
+  appId:process.env.REACT_APP_API_KEY_FIREBASE2
 };
 
 const app = initializeApp(firebaseConfig);
